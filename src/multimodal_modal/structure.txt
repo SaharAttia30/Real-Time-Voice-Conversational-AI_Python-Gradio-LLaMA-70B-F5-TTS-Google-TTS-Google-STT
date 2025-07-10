@@ -1,0 +1,26 @@
+voice_chatbot/
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── config.py
+│   │   ├── api/
+│   │   │   ├── __init__.py
+│   │   │   ├── chat.py
+│   │   │   └── tts.py
+│   │   ├── services/
+│   │   │   ├── __init__.py
+│   │   │   ├── llm_service.py
+│   │   │   ├── vad_service.py
+│   │   │   ├── google_tts.py
+│   │   │   ├── nebius_tts.py
+│   │   │   └── f5_tts.py
+│   │   ├── models/
+│   │   │   ├── __init__.py
+│   │   │   ├── request_models.py
+│   │   │   └── response_models.py
+│   │   └── exceptions.py
+│   └── requirements.txt
+├── frontend/
+│   └── gradio_app.py
+└── README.md

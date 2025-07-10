@@ -1,0 +1,11 @@
+# requirements.txt
+
+fastapi
+uvicorn
+google-cloud-texttospeech
+openai
+requests
+webrtcvad
+gradio
+f5-tts
+python-dotenv

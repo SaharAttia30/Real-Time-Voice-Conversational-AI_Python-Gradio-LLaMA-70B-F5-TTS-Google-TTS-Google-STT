@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+gradio
+requests
+python-dotenv
+google-cloud-texttospeech
+google-cloud-speech
+google-cloud-translate
+f5-tts-mlx
+soundfile
