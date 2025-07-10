@@ -1,0 +1,8 @@
+conda create -n convai python=3.10
+conda activate convai
+pip install torch==2.4.0+cu124 torchaudio==2.4.0+cu124 --extra-index-url https://download.pytorch.org/whl/cu124
+docker build .
+docker container run --rm -it --gpus=all  -v .:/app --mount type=volume,source=f5-tts,target=/root/.cache/huggingface/hub/ -p 7860:7860 ghcr.io/swivid/f5-tts:main
+cd ../..
+cd app/src/infer
+python infer2.py
