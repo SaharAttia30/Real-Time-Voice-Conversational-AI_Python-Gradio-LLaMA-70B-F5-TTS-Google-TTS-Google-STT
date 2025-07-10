@@ -260,3 +260,7 @@ If our work and codebase is useful for you, please cite as:
 
 Our code is released under MIT License. The pre-trained models are licensed under the CC-BY-NC license due to the training data Emilia, which is an in-the-wild dataset. Sorry for any inconvenience this may cause.
 "# Real-Time-Voice-Conversational-AI_Python-Gradio-LLaMA-70B-F5-TTS-Google-TTS-Google-STT" 
+this project uses code generated from https://github.com/dusty-nv and google AI studio to interact with the gemini API 
+https://creativecommons.org/licenses/by/4.0/
+https://www.apache.org/licenses/LICENSE-2.0
+https://developers.google.com/site-policies
